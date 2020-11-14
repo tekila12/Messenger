@@ -1,0 +1,55 @@
+.App{
+  text-align: center;
+}
+
+.app__form{
+  display: center;
+  padding: 20px;
+  bottom: 0px;
+  position:fixed;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 100%;
+ margin: 20px;
+}
+
+
+.app__formControl{
+  display:flex !important;
+  flex-direction: row !important;
+}
+
+
+
+.app__iconButton{
+  flex: 0;
+
+}
+
+
+
+.app__input{
+flex: 1;
+max-width: 90%;
+}
+
+
+.logo_image{
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .app__input{
+  max-width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 440px) {
+
+  .app__input{
+  max-width: 70%;
+  }
+}
